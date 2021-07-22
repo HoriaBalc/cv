@@ -22,11 +22,12 @@
     display:flex;
     align-items: left;
     justify-content: left;
-
+    
 }
 
 .title-nav{
     flex-basis: 70%;
+    padding-left: 15px;
 }
 
 .form-nav{
@@ -50,7 +51,7 @@ img{
     font-size: 16px;
     border: solid 2px rgb(167, 166, 166);
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 
@@ -61,13 +62,20 @@ img{
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fugaz+One&family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Serif+Display:ital@0;1&family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playball&family=Squada+One&display=swap" rel="stylesheet">
 </head>
 <body >
     <header>
         
         <nav class="container-nav" style="background-color: rgb(73, 112, 99);">
-            <h1 class="title-nav" style="color: rgb(22, 253, 176);font-family: monospace;"> 
-            <strong style="font-family:Arial, Helvetica, sans-serif;">Curriculum vitae:</strong>  Balc Horia-Ovidiu 
+            <h1 class="title-nav" style="color: rgb(253, 181, 46);font-family: 'Lobster Two', cursive; font-size: 22px;"> 
+            <strong style="font-family: 'Kaushan Script', cursive; font-size: 30px; padding-left: 25px;">Curriculum vitae:  </strong> <span style="padding-left: 10px;">Balc Horia-Ovidiu</span>  
         </h1>
         <form action="https://horiabalc.github.io/portofoliu/" method="get" enctype="multipart/form-data" class="form-nav">
             <button type="submit" class="top-button">My projects</button>
@@ -80,54 +88,57 @@ img{
 
     <main style="background-color: rgb(196, 189, 153);">
         <section id="profile">
-            <figconfig class="container-profile">
-                <figconfig class="image-profile">
+            <figcaption class="container-profile">
+                <figcaption class="image-profile">
                     <img src="profile1.PNG" name="profile" alt="profile">
-                </figconfig>
-                <figconfig class="text-profile">
-                    <p><strong style="font-family: monospace;">Nationality:</strong> Romanian</p>
-                    <p><strong style="font-family: monospace;">Tel:</strong> (+40) 0721370720</p>
-                    <p><strong style="font-family: monospace;">Gender:</strong> male</p>
-                    <p><strong style="font-family: monospace;">Email:</strong> 
-                        <a href="mailto:balc_horia@yahoo.com;">balc_horia@yahoo.com</a>
+                </figcaption>
+                <figcaption class="text-profile">
+                    <p><strong style="font-family: 'DM Serif Display', serif; color:rgb(42, 66, 58);">Nationality:</strong> Romanian</p>
+                    <p><strong style="font-family: 'DM Serif Display', serif; color:rgb(42, 66, 58);">Tel:</strong> (+40) 0721370720</p>
+                    <p><strong style="font-family: 'DM Serif Display', serif; color:rgb(42, 66, 58);">Gender:</strong> male</p>
+                    <p><strong style="font-family: 'DM Serif Display', serif; color:rgb(42, 66, 58);">Email:</strong> 
+                        <a href="mailto:balc_horia@yahoo.com;" style="font-style: italic;">balc_horia@yahoo.com</a>
                     </p>
-                    <p><strong style="font-family: monospace;">Adress:</strong>  Trifoiului Street 33N, 400478 Cluj-Napoca (Romania)</p>
+                    <p><strong style="font-family: 'DM Serif Display', serif; color:rgb(42, 66, 58);">Adress:</strong>  Trifoiului Street 33N, 400478 Cluj-Napoca (Romania)</p>
 
-                </figconfig>
+                </figcaption>
 
-            </figconfig>
+            </figcaption>
             
             
         </section>
         <section id="education">
             <figure>
             <fieldset>
-                <legend>EDUCATION AND TRAINING</legend>
-                <figure>
-                    <h3>Bachelor of engineering</h3>
-                    <p> <strong style="font-style: italic;">Technical University of Cluj-Napoca</strong> [ 01/10/2018 – Current ] </p>
-                      
-                    <p> <strong style="font-style: italic;">Field(s) of study:</strong> Computers science and information technology </p> 
-                </figure>
-                <figure>
-                    <h3>High school Diploma</h3>
-                    <p> <strong style="font-style: italic;">Nicolae Balcescu High school </strong>[ 2014 – 2018 ] </p>
-                      
-                    <p> <strong >Address:  </strong> 400158 Cluj-Napoca (Romania) </p>
-                    <p> <strong>Field(s) of study:</strong>  Mathematics and computer science, intensive computer science </p>
-                    <p> <Strong>Extrascholar achievments/activities</Strong>
-                        <ul>
-                            <li>Mention at the county mathematics olympiad 2015/2016</li>
-                            <li>Second prize at the 2016/2017 County Mathematical Olympiad</li>
-                            <li>Mention at the county mathematics olympiad 2017/2018</li>
-                            <li>Second prize at the Inter-county mathematics competition "Teodor Topan" 2017/2018</li>
-                            <li>Special mention at the inter-county contest "Gheorghe Lazar" 2015/2016</li>
-                            <li>Participation in the project Discover your passion in IT</li>            
-                        </ul>
-                    </p>
+                <legend style="font-family: 'Playball', cursive; color: rgb(255, 255, 255);"> <strong>EDUCATION AND TRAINING</strong> </legend>
+                <fieldset>                        
+                    <legend style="color: rgb(23, 102, 76);font-size: 30px; font-family: 'Squada One', cursive;"> <strong>Bachelor of Engineering</strong> </legend>           
+                      <figure>
+                        <p> <strong style="font-family: 'Carter One', cursive;color: rgb(23, 102, 76); font-size: 20px;">Technical University of Cluj-Napoca</strong> [ 01/10/2018 – Current ] </p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Field(s) of study:</strong> Computers science and information technology </p> 
+                    </figure>  
                    
-                </figure>
+                </fieldset>
+                
+                <fieldset>
+                    <legend style="color: rgb(23, 102, 76);font-size: 30px; font-family: 'Squada One', cursive;"><strong>High school Diploma</strong> </legend>
 
+                    <figure>
+                        <p> <strong style="font-family: 'Carter One', cursive;color: rgb(23, 102, 76);font-size: 20px;">Nicolae Balcescu High school </strong>[ 2014 – 2018 ] </p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Address:  </strong> 400158 Cluj-Napoca (Romania) </p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Field(s) of study:</strong>  Mathematics and computer science, intensive computer science </p>
+                        <p> <Strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Extrascholar achievments/activities:</Strong>
+                            <ul>
+                                <li>Mention at the county mathematics olympiad 2015/2016</li>
+                                <li>Second prize at the 2016/2017 County Mathematical Olympiad</li>
+                                <li>Mention at the county mathematics olympiad 2017/2018</li>
+                                <li>Second prize at the Inter-county mathematics competition "Teodor Topan" 2017/2018</li>
+                                <li>Special mention at the inter-county contest "Gheorghe Lazar" 2015/2016</li>
+                                <li>Participation in the project Discover your passion in IT</li>            
+                            </ul>               
+                        </p>             
+                    </figure>    
+                </fieldset>
             </fieldset>
             </figure>
 
@@ -136,30 +147,29 @@ img{
 
             <figure id="language skills">
                 <fieldset>
-                    <legend>LANGUAGE SKILLS</legend>
+                    <legend style="font-family: 'Playball', cursive; color: rgb(255, 255, 255);"><strong>LANGUAGE SKILLS</strong> </legend>
                     <figcaption>
-                        <p>Mother tongue(s): </p>
-                        <p><strong style="font-size: 20px;">Romanian</strong></p>
-                        <p>Other language(s):</p>
-                        <p style="font-size: 14px;"> <strong style="font-size: 20px;">English:</strong> <strong >LISTENING</strong> B2 <strong>READING</strong> B2 <strong>WRITING</strong> B2 <strong>SPOKEN PRODUCTION</strong> B2 <strong>SPOKEN INTERACTION</strong> B2</p>
-                        <p style="font-size: 14px;"> <strong style="font-size: 20px;">French:</strong> <strong>LISTENING</strong> A2 <strong>READING</strong> A2 <strong>WRITING</strong> A2 <strong>SPOKEN PRODUCTION</strong> A2 <strong>SPOKEN INTERACTION</strong> A2</p>        
+                        <p style="font-style: italic;font-size: 18px;">Mother tongue(s):  <span style="font-size: 20px;font-family: 'Fugaz One', cursive; font-style: normal;color: rgb(23, 102, 76);">Romanian</span></p>
+                        <p style="font-style: italic;font-size: 18px;">Other language(s):</p>
+                        <p style="font-size: 14px;"> <span style="font-size: 20px;font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">English:</span> <strong style="color:rgb(42, 66, 58);">LISTENING</strong> B2 <strong style="color:rgb(42, 66, 58);">READING</strong> B2 <strong style="color:rgb(42, 66, 58);">WRITING</strong> B2 <strong style="color:rgb(42, 66, 58);">SPOKEN PRODUCTION</strong> B2 <strong style="color:rgb(42, 66, 58);">SPOKEN INTERACTION</strong> B2</p>
+                        <p style="font-size: 14px;"> <span style="font-size: 20px;font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">French:</span> <strong style="color:rgb(42, 66, 58);">LISTENING</strong> A2 <strong style="color:rgb(42, 66, 58);">READING</strong> A2 <strong style="color:rgb(42, 66, 58);">WRITING</strong> A2 <strong style="color:rgb(42, 66, 58);">SPOKEN PRODUCTION</strong> A2 <strong style="color:rgb(42, 66, 58);">SPOKEN INTERACTION</strong> A2</p>        
                     </figcaption>
                 </fieldset>
             </figure>  
 
             <figure id="digital skills">
                 <fieldset>
-                    <legend>DIGITAL SKILLS </legend>
+                    <legend style="font-family: 'Playball', cursive; color: rgb(255, 255, 255);"><strong> DIGITAL SKILLS</strong> </legend>
                     <figcaption>
-                        <p> <strong>Medium level languages</strong></p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Medium level languages</strong></p>
                         <p>VHDL / C / Java </p>
-                        <p> <strong>Familiar languages</strong></p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Familiar languages</strong></p>
                         <p>VHDL / C / Java </p>
-                        <p> <strong>Operating system</strong></p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Operating system</strong></p>
                         <p>Windows / Linux </p>
-                        <p> <strong>Data base management system</strong></p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Data base management system</strong></p>
                         <p>MySQL</p>
-                        <p> <strong>Technologies</strong></p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Technologies</strong></p>
                         <p>Git / Microsoft Word / Microsoft PowerPoint / Microsoft Excel / Microsoft Office</p>  
                     </figcaption>
                 </fieldset>
@@ -167,9 +177,9 @@ img{
 
             <figure id="driving licence">
                 <fieldset>
-                    <legend>DRIVING LICENCE </legend>
+                    <legend style="font-family: 'Playball', cursive; color: rgb(255, 255, 255);"><strong> DRIVING LICENCE</strong> </legend>
                     <figcaption>
-                        <p> <strong>Category:</strong>  B  since: 01/10/2018 </p>
+                        <p> <strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Category:</strong>  B  since: 01/10/2018 </p>
                     </figcaption>
 
                 </fieldset>
@@ -180,13 +190,13 @@ img{
         <section id="hobbies and interests">
             <figure>
                 <fieldset>
-                    <legend>HOBBIES AND INTERESTS </legend>
+                    <legend style="font-family: 'Playball', cursive; color: rgb(255, 255, 255);"><strong>HOBBIES AND INTERESTS</strong>  </legend>
                     <figcaption>
                         <ul>
-                            <li><p><strong>Sports:</strong>  cycling, running, swimming, walking, skiing</p></li>
-                            <li><p><strong>Films/Series</strong></p></li>
-                            <li><p><strong>Video Games</strong></p></li>
-                            <li><p><strong>Socialize</strong></p></li></li>
+                            <li><p><strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Sports:</strong>  cycling, running, swimming, walking, skiing</p></li>
+                            <li><p><strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Films/Series</strong></p></li>
+                            <li><p><strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Video Games</strong></p></li>
+                            <li><p><strong style="font-family: 'Fugaz One', cursive;color: rgb(23, 102, 76);">Socialize</strong></p></li></li>
                         </ul>
                     </figcaption>
                 </fieldset>
