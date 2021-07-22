@@ -4,16 +4,9 @@
 .container-profile{
     display:flex;
     align-items: left;
-    justify-content: left
+    justify-content: left;
 }
 
-img{
-    border-radius: 50%;
-    width: 200px;
-    height: auto;
-    border:ridge 2px rgb(255, 255, 255);
-
-}
 .image-profile{
   
   flex-basis: 10%;
@@ -25,6 +18,42 @@ img{
     text-align: left;
 
 }
+.container-nav{
+    display:flex;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.title-nav{
+    flex-basis: 70%;
+}
+
+.form-nav{
+    padding-left: 15px;
+    text-align: left;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    border:ridge 2px rgb(255, 255, 255);
+
+}
+
+.top-button{
+    background-color: rgb(73, 112, 99);
+    color: rgb(243, 243, 243);
+    padding: 19px 30px;
+    text-align: center;
+    font-size: 16px;
+    border: solid 2px rgb(167, 166, 166);
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
 
 </style>    
 <head>
@@ -33,14 +62,23 @@ img{
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
 </head>
-<body style="background-color: rgb(180, 153, 0);">
+<body >
     <header>
-        <h1 style="color: rgb(22, 253, 176);font-family: monospace;"> 
+        
+        <nav class="container-nav" style="background-color: rgb(73, 112, 99);">
+            <h1 class="title-nav" style="color: rgb(22, 253, 176);font-family: monospace;"> 
             <strong style="font-family:Arial, Helvetica, sans-serif;">Curriculum vitae:</strong>  Balc Horia-Ovidiu 
         </h1>
+        <form action="https://horiabalc.github.io/portofoliu/" method="get" enctype="multipart/form-data" class="form-nav">
+            <button type="submit" class="top-button">My projects</button>
+        </form>  
+        <form action="https://github.com/HoriaBalc" method="get" enctype="multipart/form-data" class="form-nav">
+            <button type="submit" class="top-button">My github profile</button>
+        </form>  
+    </nav>  
     </header>
 
-    <main>
+    <main style="background-color: rgb(196, 189, 153);">
         <section id="profile">
             <figconfig class="container-profile">
                 <figconfig class="image-profile">
@@ -62,6 +100,7 @@ img{
             
         </section>
         <section id="education">
+            <figure>
             <fieldset>
                 <legend>EDUCATION AND TRAINING</legend>
                 <figure>
@@ -90,6 +129,7 @@ img{
                 </figure>
 
             </fieldset>
+            </figure>
 
         </section>
         <section id="skills">
@@ -127,7 +167,7 @@ img{
 
             <figure id="driving licence">
                 <fieldset>
-                    legend>DRIVING LICENCE </legend>
+                    <legend>DRIVING LICENCE </legend>
                     <figcaption>
                         <p> <strong>Category:</strong>  B  since: 01/10/2018 </p>
                     </figcaption>
@@ -158,6 +198,6 @@ img{
     </main>
 
 
-    <a href="https://horiabalc.github.io/portofoliu/">My projects</a>
+    
 </body>
 </html>
